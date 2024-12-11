@@ -6,8 +6,8 @@ on:
     branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
-  schedule:
-    - cron: '* * * * *'  # Run every minute 
+ # schedule:
+   # - cron: '*/1 * * * *'  # Run every minute 
 
 jobs:
   build:
